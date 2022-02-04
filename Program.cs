@@ -17,7 +17,7 @@ namespace OOP_Introduction_Explained
                 MyPerson.AskQuestion(int.Parse(input));
                 Console.WriteLine("You are: " + MyPerson.GetPersonality());
 
-                Console.Write("What is your name: ");
+                Console.Write("enter name ");
                 name = Console.ReadLine();
                 Student MyStudent = new Student();
                 MyStudent.Name = name;
